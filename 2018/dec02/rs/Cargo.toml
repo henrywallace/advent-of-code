@@ -1,0 +1,11 @@
+[package]
+name = "dec02"
+version = "0.1.0"
+authors = ["Henry Wallace <henry@henrywallace.io>"]
+
+[[bin]]
+path = "src/main.rs"
+name = "dec02"
+
+[dependencies]
+"clap" = "2.32.0"
