@@ -1,0 +1,13 @@
+[package]
+name = "dec03"
+version = "0.1.0"
+authors = ["Henry Wallace <henry@henrywallace.io>"]
+
+[[bin]]
+path = "src/main.rs"
+name = "dec03"
+
+[dependencies]
+"clap" = "2.32.0"
+regex = "1"
+lazy_static = "1"
